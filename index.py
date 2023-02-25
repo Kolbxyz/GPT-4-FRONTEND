@@ -25,7 +25,7 @@ isText = input("Text completion? text/image: ") == "text" and True or False
 wikipedia.set_lang(languageInput)
 translator= Translator(to_lang="fr")
 previousResult = ""
-os.environ["api_key"] = "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"
+os.environ["api_key"] = "sk-YOURAPIKEYRIGHTTHERE"
 
 ### Functions
 def log(content):
